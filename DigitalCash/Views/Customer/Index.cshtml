@@ -1,0 +1,44 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+<style>
+    .slidernumber
+    {
+        float: left;
+    }
+    .slider-volume {
+        margin-top: 5px;
+        float: left;
+    }
+</style>
+<table>
+    <tr>
+        <td>Name: </td>
+        <td><input type="text" id="txtName" /></td>
+    </tr>
+    <tr>
+        <td>Address: </td>
+        <td><input type="text" id="txtAddress" /></td>
+    </tr>
+    <tr>
+        <td>Number of Money Orders </td>
+        <td><div class="controls smallgroup"> <input id="txtNumOfMoneyOrder"type="number" class="input-mini slidernumber" value="100" /></div></td>
+    </tr>
+    <tr>
+        <td>Money Order Cash Amount</td>
+        <td><div class="controls smallgroup"> <input id="txtNumOfMoneyOrder" type="number" class="input-mini slidernumber" value="1000" /></div></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td><input type="button" onclick="CreateMoneyOrders()" value="Create Money Orders"/></td>
+    </tr>
+</table>
+<script>
+    function CreateMoneyOrders()
+    {
+        var url = 
+    }
+</script>
